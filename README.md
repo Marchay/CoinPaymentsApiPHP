@@ -5,7 +5,7 @@ First create and initial parameters and setup
 
     <?php
 
-    require('cp/coinpayments.inc.php');
+    require('coinpayments.inc.php');
 
     $cps = new CoinPaymentsAPI();
     $prkey = '';  //Your private key
