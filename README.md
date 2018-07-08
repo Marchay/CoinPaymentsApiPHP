@@ -45,16 +45,17 @@ The above example will print it in arrays.For getting in string just use the fol
 	}
   
   The following commands are availabe in library:-
-  .)GetRates
-  .)GetBalances
-  .)CreateTransactionSimple
-  .)CreateTransaction
-  .)GetCallbackAddress
-  .)CreateWithdrawal
-  .)CreateTransfer
-  .)SendToPayByName
-  .)GetWithdrawalInformation
-  .)GetTransactionInformation
+      
+      .)GetRates
+      .)GetBalances
+      .)CreateTransactionSimple
+      .)CreateTransaction
+      .)GetCallbackAddress
+      .)CreateWithdrawal
+      .)CreateTransfer
+      .)SendToPayByName
+      .)GetWithdrawalInformation
+      .)GetTransactionInformation
  
  
  
