@@ -1,9 +1,4 @@
 <?php
-/*
-	CoinPayments.net API Class - v1.0
-	Copyright 2014-2016 CoinPayments.net. All rights reserved.	
-	License: GPLv2 - http://www.gnu.org/licenses/gpl-2.0.txt
-*/
 
 class CoinPaymentsAPI {
 	private $private_key = '';
