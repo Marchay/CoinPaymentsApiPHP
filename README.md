@@ -56,7 +56,7 @@ The above example will print it in arrays.For getting in string just use the fol
       .)SendToPayByName
       .)GetWithdrawalInformation
       .)GetTransactionInformation
- 
+      .)CreateMassWithdrawal
  
  
 # Contribute
