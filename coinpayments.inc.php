@@ -137,6 +137,20 @@ class CoinPaymentsAPI {
 		return $this->api_call('get_tx_info', $req);
 	}
 	
+		public function CreateMassWithdrawal($amount, $coin, $address, $amount1, $coin1, $address1) {
+	    
+	     $req = array(
+        'wd[wd1][amount]' => "$amount",
+        'wd[wd1][address]' => "$address",
+        'wd[wd1][currency]' => "$coin",
+        'wd[wd2][amount]' => "$amount1",
+        'wd[wd2][address]' => "$address1",
+        'wd[wd2][currency]' => "$coin1",
+        
+      );
+      return  $this->api_call('create_mass_withdrawal', $req);
+	}
+	
 	private function is_setup() {
 		return (!empty($this->private_key) && !empty($this->public_key));
 	}
